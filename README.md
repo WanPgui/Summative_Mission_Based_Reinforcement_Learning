@@ -1,13 +1,17 @@
 # Summative_Mission_Based_Reinforcement_Learning
 # Reinforcement Learning Agent Comparison: DQN, PPO, A2C
 
-## Link to video: https://drive.google.com/file/d/1ZjwyYKPM3YGkhqN_ASpDZ302sQlbHK1t/view?usp=sharing
+## Link to video:https://drive.google.com/file/d/1ZjwyYKPM3YGkhqN_ASpDZ302sQlbHK1t/view?usp=sharing
+
+
+## Link to Report document: https://docs.google.com/document/d/1BpYZPOlQCBQ9TVzDkgbyVnSfxJWaZEnDwNrEf80NPek/edit?usp=sharing
+
 
 
 ## Reinforcement Learning Atari Agent Comparison
 Environment:  Gymnasium
 Algorithms: Deep Q-Network (DQN), Proximal Policy Optimization (PPO), Advantage Actor-Critic (A2C)
-Libraries Used: Stable-Baselines3, Gymnasium, Matplotlib, NumPy, Torch
+Libraries Used: Stable-Baselines3, Gymnasium, Matplotlib, NumPy, tdqm
 
 ## Overview
 This project trains and evaluates three RL algorithms — **DQN**, **PPO**, and **A2C** — on the `ALE/Breakout-v5` Atari environment using Stable-Baselines3 and Gymnasium. It compares their training stability, rewards, and performance visually and quantitatively.
