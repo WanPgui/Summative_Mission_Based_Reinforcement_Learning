@@ -11,6 +11,39 @@ Libraries Used: Stable-Baselines3, Gymnasium, Matplotlib, NumPy, Torch
 
 ## Overview
 This project trains and evaluates three RL algorithms — **DQN**, **PPO**, and **A2C** — on the `ALE/Breakout-v5` Atari environment using Stable-Baselines3 and Gymnasium. It compares their training stability, rewards, and performance visually and quantitatively.
+Custom Environment: SchoolCanteenEnv
+Grid: 5x5 with static tiles
+
+Tiles:
+
+0: Empty
+
+2: 🍩 Junk Food (penalty)
+
+3: 🧒 Diabetic Student (goal)
+
+4: 🧒 Anemic Student (goal)
+
+5: 🍎 Healthy Meal Pack (pickup)
+
+6: ❌ Missing Ingredient (penalty)
+
+7: ⚠️ Allergy Alert (penalty)
+
+Agent actions:
+0. Up, 1. Down, 2. Left, 3. Right, 4. Pick Up, 5. Deliver
+
+Reward shaping:
+
+Pickup meal: +5
+
+Deliver correct meal: +20
+
+Wrong delivery: -5
+
+Allergy alert: -3, Junk food: -2
+
+Reaching student: +0.5
 
 ---
 
