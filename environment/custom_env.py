@@ -1,10 +1,11 @@
+
 import gymnasium as gym
 from gymnasium import spaces
 import numpy as np
 import random
 
 class SchoolCanteenEnv(gym.Env):
-    \"""
+    """
     Custom Gym environment for School Canteen Nutrition Allocation.
 
     Grid Legend:
@@ -16,7 +17,7 @@ class SchoolCanteenEnv(gym.Env):
     5: Healthy Meal Pack 🍎
     6: Missing Ingredients ❌
     7: Allergy Alert Station ⚠️
-    \"""
+    """
 
     metadata = {"render_modes": ["human"], "render_fps": 4}
 
@@ -123,8 +124,7 @@ class SchoolCanteenEnv(gym.Env):
             if current_tile == self.target_student:
                 if self.held_meal == 0:
                     reward -= 3
-                elif (self.held_meal == 1 and self.target_student == 3) or \
-                     (self.held_meal == 2 and self.target_student == 4):
+                elif (self.held_meal == 1 and self.target_student == 3) or                      (self.held_meal == 2 and self.target_student == 4):
                     reward += 20  # Big success reward
                     done = True
                 else:
