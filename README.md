@@ -1,10 +1,12 @@
 # Summative_Mission_Based_Reinforcement_Learning
 # Reinforcement Learning Agent Comparison: DQN, PPO, A2C
 
-## Link to video:https://drive.google.com/file/d/1ZjwyYKPM3YGkhqN_ASpDZ302sQlbHK1t/view?usp=sharing
+## Link to video: https://drive.google.com/file/d/1RoC0QQMP9e5JAHtyAuj3WLL22yWP7GLO/view?usp=sharing
 
 
-## Link to Report document: https://docs.google.com/document/d/1BpYZPOlQCBQ9TVzDkgbyVnSfxJWaZEnDwNrEf80NPek/edit?usp=sharing
+
+## Link to Report pdf document: https://docs.google.com/document/d/1BpYZPOlQCBQ9TVzDkgbyVnSfxJWaZEnDwNrEf80NPek/edit?usp=sharing
+
 
 
 
